@@ -1,0 +1,11 @@
+spring:
+  redis:
+    host: 39.97.243.43
+    port: 6379
+    password:
+    database: 0
+
+logging:
+  level:
+    root: error
+    com.zongkx: info

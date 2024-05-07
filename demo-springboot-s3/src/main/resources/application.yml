@@ -1,0 +1,5 @@
+minio:
+  accessKey: test
+  accessSecret: 123456789
+  endpoint: 39.97.243.43
+  port: 9000

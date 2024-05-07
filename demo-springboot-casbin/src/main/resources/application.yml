@@ -1,0 +1,13 @@
+spring: # mysql-connector-java ( mybatis-spring-boot-starter / mybatis-plus-boot-starter / jpa )
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://39.97.243.43:3306/test?useSSL=false
+    username: root
+    password: 123456
+  jpa: # 仅针对spring-boot-starter-data-jpa
+    database-platform: org.hibernate.dialect.MySQL8Dialect
+    hibernate:
+      ddl-auto: update
+casbin:
+  #If you are using a model profile at this address, no configuration is required
+  model: classpath:model.conf
