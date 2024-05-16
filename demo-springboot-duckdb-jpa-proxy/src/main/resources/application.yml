@@ -1,0 +1,14 @@
+server:
+  port: 1234
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://aws.connect.psdb.cloud:3306/zongkx?useSSL=true
+    username: 
+    password: 
+  jpa:
+    database-platform: org.hibernate.dialect.MySQLDialect
+    hibernate:
+      ddl-auto: update
+    open-in-view: true
